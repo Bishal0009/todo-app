@@ -1,0 +1,21 @@
+Installation
+nextjs
+shadcn
+
+
+Initialize authentication
+clerk
+
+Setup Database Connection
+Drizzle ORM
+Neon
+
+Configure Webhook
+Clerk webhooks
+Ngroc setup
+
+trpc setup
+Go to tanstack react and go to server components to setup
+
+Folder Structure
+(auth)
