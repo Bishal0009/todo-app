@@ -5,9 +5,11 @@ const isPublicRoute = createRouteMatcher([
   "/sign-up(.*)",
   "/api/webhooks(.*)",
   "/",
+  // "/test",
 ]);
 
 export default clerkMiddleware(async (auth, req) => {
+  console.log("Running middleware for path:", req.nextUrl.pathname);
   if (!isPublicRoute(req)) {
     await auth.protect();
   }
